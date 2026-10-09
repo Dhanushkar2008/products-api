@@ -36,6 +36,12 @@ public class HelloController {
         return "Goodbye from Spring Boots!";
     }
 
+    @GetMapping("/info")
+    public String info(){
+
+        return "Okayy okayyy so in brief, this is a OOP tutorial stuff, and this was given to us to complete the whole thing in Week 2 and here I am figring out at the end of 3rd Week";
+    }
+
     // TODO (Activity 3): add your /goodbye endpoint here.
 
 }
