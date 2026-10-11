@@ -15,6 +15,7 @@ public class Product {
     }
 
     public Long getId() { return id;}
+    //Be carefull of "//" getting typed accidently or whatever cause the JSON will ignore it thoroughly and it won't show any error too//
     public String getName() {return name;}
     public double getPrice() {return price;}
 }
